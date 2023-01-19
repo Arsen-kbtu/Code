@@ -31,3 +31,13 @@ print(x + y + z)
 x = 5
 y = 10
 print(x + y)
+#GLOBAL
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
