@@ -38,4 +38,4 @@ while not done:
         rotm_rect = rotm.get_rect(center=(540, 360))
         screen.blit(rotm, rotm_rect)
         pygame.display.update()
-        pygame.display.flip()
+        
